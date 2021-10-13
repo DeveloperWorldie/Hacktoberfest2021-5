@@ -4,12 +4,12 @@
 using namespace std;
 int main()
 {
-    int yr;
+    int year;
     cout<<"Enter the Year: ";
     cin>>yr;
-    if((yr%4==0) && (yr%100!=0))
+    if((year%4==0) && (year%100!=0))
         cout<<"\nIt is a Leap Year";
-    else if(yr%400==0)
+    else if(year%400==0)
         cout<<"\nIt is a Leap Year";
     else
         cout<<"\nIt is not a Leap Year";
